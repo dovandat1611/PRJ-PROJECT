@@ -1,0 +1,151 @@
+
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0069d9;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.cart-button{
+    background-color: #00504B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.cart-button:hover {
+    background-color: #c82333;
+}
+
+.btn-home {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-home:hover{
+    background-color: #1D1C57;
+}
+
+.header{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infor {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Style for the first <p> element */
+.infor p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Style for the second <p> element */
+.infor p:last-child {
+    margin-top: 10px;
+    font-style: italic;
+    color: #999;
+}
+
+.menuuser{
+
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.menucatetory{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.search-form {
+    display: flex;  /* Cho phép các phần tử trong form được hiển thị trên cùng một hàng */
+    justify-content: center; /* Canh giữa phần tử form */
+    margin-top: 20px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+select {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    background-color: #008CBA;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #006E9F;
+}
